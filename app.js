@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-const url = "mongodb+srv://todo_3010:todo@cluster0.edast.mongodb.net/taskDB";
+const url = "<add the link>";
 mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
