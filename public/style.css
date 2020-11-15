@@ -1,0 +1,171 @@
+.bodys
+{
+  background-color: black;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+  font-size: 2.3rem;
+  background-color: grey;
+}
+
+.datetime {
+
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+.listsadd
+{
+
+  color: white;
+  font-size: 1.5rem;
+  background-color: grey;
+}
+.box1 {
+padding-top: 10px;
+padding-bottom: 10px;
+  background-color: grey;
+}
+
+.bg
+{
+  background-color: grey;
+}
+.boxprop
+{
+  font-size: 2rem;
+}
+
+.listtitle{
+text-align: center;
+  color: White;
+margin-top: 80px;
+/* margin-left: 70px; */
+}
+
+.labeling {
+  font-size: 1.2rem;
+  color: white;
+  padding-left: 20px;
+}
+
+.textarea {
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+.textbutton {
+  margin-top: 10px;
+  /* margin-left: 30px; */
+  border-radius: 20px;
+}
+
+.taskheading
+{
+  font-size: 2rem;
+  color: #f0a500;
+}
+
+
+.item {
+
+margin-top: 10px;
+  background-color: grey;
+
+
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.buttonss
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.editbutton
+{
+
+margin-bottom: 10px;
+
+
+
+}
+.datetimeedit
+{
+  /* margin-left: 400px; */
+}
+
+
+
+
+
+
+
+/* Style the sidebar - fixed full height */
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the main content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.row2
+{
+  height: 200px;
+  width: 200px;
+}
+.position
+{
+flex-direction: row-reverse !important
+}
+.complete
+{
+  background-color: green;
+}
+.container
+{
+  margin-right: 0px !important;
+
+}
